@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 50%;
+    margin: auto;
+    box-shadow: 0 0 10px 0 black;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+    margin-top: 3rem;
+}
+p{
+    font-size: medium;
+    font-weight: 600;
+    color: navy;
+}
+h1{
+    text-align: center;
+    margin-top: 2rem;
+    color: blueviolet;
+}
+li{
+    padding: 0.5rem 0;
+}
